@@ -7,6 +7,7 @@
 
 *, *::before, *::after {
     box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 body {
@@ -24,6 +25,7 @@ header {
     text-align: center;
     padding: 0.75em 0;
     font-weight: bold;
+    position: sticky;
     position: sticky;
     top: 0;
 }
@@ -75,11 +77,11 @@ header {
 }
 
 .hamburger::before {
-    transform: translateY(-6px);
+            transform: translateY(-6px);
 }
 
 .hamburger::after {
-    transform: translateY(3px);
+            transform: translateY(3px);
 }
 
 
@@ -141,11 +143,11 @@ header {
 /*Hamburger animation*/
 
 .nav--visible .hamburger {
-    transform: rotate(.625turn);
+            transform: rotate(.625turn);
 }
 
 .nav--visible .hamburger::before {
-    transform: rotate(90deg);
+            transform: rotate(90deg);
 }
 
 .nav--visible .hamburger::after {
@@ -174,6 +176,7 @@ header {
     font-size: 1rem;
     text-align: center;
 }
+
 
 .main {
     padding-top: 6em;
@@ -302,7 +305,7 @@ footer h3 {
     }
 
     .hero_content + .hero_content {
-    margin-left: 5em;
+        margin-left: 5em;
     }
 
     .nav__items {
@@ -388,8 +391,8 @@ footer h3 {
 
     .big-one {
          display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+         flex-direction: row;
+         justify-content: space-around;
     }
 
 }
